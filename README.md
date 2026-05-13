@@ -1,4 +1,7 @@
-# Image Processing System
+# Image Processing System [Legacy]
+
+**Status: Legacy Project**  
+**Supervisor:** Artur (User)
 
 A legacy Python application for image analysis and basic processing, featuring real-time histogram calculation and brightness adjustment.
 
@@ -82,5 +85,6 @@ def transformImage(self, pil_image):
 ## Technical Details
 - **Version:** 1.1
 - **Developer:** Agnieszka Szypuła
+- **Supervisor:** Artur
 - **Backend:** PIL (Python Imaging Library)
 - **GUI:** PyQt4 (Qt version 4.x)

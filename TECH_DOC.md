@@ -1,4 +1,6 @@
-# Technical Documentation: Image Processing Implementation
+# Technical Documentation: Image Processing Implementation [Legacy]
+
+> **Note:** This document describes a **legacy system** maintained for historical/educational purposes.
 
 This document provides a deeper dive into the technical implementation of the Image Processing System.
 

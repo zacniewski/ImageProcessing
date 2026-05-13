@@ -230,11 +230,11 @@ class SuperProgram(QtGui.QWidget):
         self.setWindowTitle(u'System analizy rozkładu jasności obrazu')    
         self.show()
         
-    #funkcja od menu 'Pomoc->O programie'
     def helpAbout(self):
         QtGui.QMessageBox.about(self, u"O programie",
-                u"""<b>System analizy rozkładu jasności obrazu</b> v %s
-                <p>Agnieszka Szypuła</p> 
+                u"""<b>System analizy rozkładu jasności obrazu [Legacy]</b> v %s
+                <p>Developer: Agnieszka Szypuła</p> 
+                <p>Supervisor: Artur</p>
                 <p>E-mail: aga.szypula@gmail.com</p>
                 <p>Python %s - Qt %s - PyQt %s on %s</p>""" % (
                 platform.__version__, platform.python_version(),
@@ -382,8 +382,8 @@ class SuperProgram(QtGui.QWidget):
         
         ##################################################################################
         self.hist = pil_image.histogram()
-        print self.hist
-        histMax = max(self.hist)                                     #comon color
+        print(self.hist)
+        histMax = max(self.hist)
         xScale = float(histWidth)/len(self.hist)                     # xScaling
         yScale = float((histHeight)*multiplerValue)/histMax            # yScaling 
         
